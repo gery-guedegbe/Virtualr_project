@@ -7,6 +7,10 @@ import { motion } from "framer-motion";
 const NavBar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
+  const handleClick = () => {
+    window.location.reload(); // Recharge la page
+  };
+
   const toggleNavBar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
@@ -29,7 +33,8 @@ const NavBar = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.8, duration: 0.5 }}
-            className="flex items-center flex-shrink-0"
+            onClick={handleClick}
+            className="flex items-center flex-shrink-0 cursor-pointer"
           >
             <img className="w-10 h-10 mr-2" src={logo} alt="logo" />
             <span className="text-xl tracking-tight">VirtualR</span>
