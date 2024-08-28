@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import FeatureSection from "./components/FeatureSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
@@ -18,6 +19,7 @@ const App = () => {
         <Testimonials />
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 };
