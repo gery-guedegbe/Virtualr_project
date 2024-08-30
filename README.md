@@ -15,7 +15,6 @@ Bienvenue sur **Virtuarl**, un site vitrine conçu pour présenter notre service
 - **Tailwind CSS** : Pour le styling moderne et réactif.
 - **Framer Motion** : Pour ajouter des animations fluides et engageantes à notre site.
 - **Vite** : Pour un bundling rapide et efficace.
-- **API** : Utilisation d'APIs pour récupérer et afficher des données en temps réel.
 
 ## 🔧 Installation
 
